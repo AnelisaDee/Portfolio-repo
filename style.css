@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #1C1A19;
+  margin: auto;
+}
+
+header {
+    width: 100%;
+    background-color: #3C3A39;
+    padding-bottom: 12px;
+}
+
+nav {
+    color: #FFFFFF;
+}
+.logo {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.navbar .fa-bars {
+    display: inline-block;
+    font-size: 33.33px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    min-width: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(./Pictures/illustration-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.container h1 {
+    color: #FF6B00;
+    letter-spacing: 0.37px;
+    margin-top: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.container p {
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.container h2 {
+    color: #FFF5E1;
+    line-height: 32px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.picture {
+  position: relative;
+  left: 96.37%;
+  right: -96.24%;
+  top: 0%;
+  bottom: 0.1%;
+  float: right;
+  display: block;
+  margin-right: 0;
+  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+#social-icon a {
+    color:  #DBD8D7;
+}
+
+#social-icon ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 30.01px;
+    margin-right: 160px;
+    margin-bottom: 130px;
+}
+.social {
+    font-size: x-large;
+    margin: 10px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .main-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
